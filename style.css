@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*navbar style*/
+.navbar{
+    display: flex;
+    background-color: midnightblue;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.navbar-logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding-left: 25px;
+    margin-right: auto;
+}
+
+.navbar-links{
+    display: flex;
+    margin-left: auto;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 15px;
+}
+
+/*introduction style*/
+.introduction{
+    display: flex;
+    color: whitesmoke;
+    background-color: midnightblue;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.blurb{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.blurb button{
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background-color: blueviolet;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 5%;
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+}
+
+/*content style*/
+.content{
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid green;
+    margin: 0px 20px 0px 20px;
+    border-radius: 8%;
+}
+
+/*quote style*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 0 200px;
+}
+
+.quote p{
+    font-size: 36px;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote b{
+    padding: 0 0 25px 25px;
+    text-align: right;
+}
+
+/*sign up style*/
+.sign-up{
+    background-color: wheat;
+    margin: 50px 20px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 8%;
+    border-color: none;
+}
+
+.text{
+    text-align: left;
+}
+
+
+.sign-up button{
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background-color: blueviolet;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 5%;
+}
+
+/*footer style*/
+.footer{
+    background-color: midnightblue;
+    color: whitesmoke;
+}
